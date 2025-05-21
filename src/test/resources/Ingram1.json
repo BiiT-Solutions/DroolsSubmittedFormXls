@@ -1,0 +1,1055 @@
+{
+  "class": "com.biit.form.result.FormResult",
+  "comparationId": "f1cf14f6-5f8f-4e7b-a4f1-77bbb2bd9dbc",
+  "creationTime": "Mar 15, 2019 1:14:40 PM",
+  "updateTime": "Mar 15, 2019 1:14:40 PM",
+  "name": "form",
+  "label": "IngramMicro ETL requirements",
+  "updatedBy": 0,
+  "version": 2,
+  "organizationId": 18903,
+  "children": [
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "fb541aec-822e-460c-9e49-a537b558409c",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:12:51 PM",
+      "name": "BASFUNC",
+      "label": "Basic functionality",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "6fc6c09f-4864-4117-8e4c-2ad1ac832246",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 10:12:34 AM",
+          "name": "EOUINFO2",
+          "label": "Please score the importance of the requirements below",
+          "children": [],
+          "values": [
+            null
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "864cec4a-7fcf-482f-b2d6-af8aeedde069",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:24 PM",
+          "name": "SDATS",
+          "label": "Splitting data streams/multiple targets",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "04e4f3cd-fdd5-4f5a-b7d4-124690449887",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:25 PM",
+          "name": "CONSPL",
+          "label": "conditional splitting",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "7de6e291-5b15-4b57-8a14-3dd228b01fb0",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:27 PM",
+          "name": "UNION",
+          "label": "Union",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "339810b3-4e82-4175-acda-ff3bbcd7dcec",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:28 PM",
+          "name": "PIVOT",
+          "label": "Pivoting",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "d564c984-0948-49eb-b08d-c0eb8235318b",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:30 PM",
+          "name": "DEPIV",
+          "label": "De-pivoting",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "9a2ba743-3be1-4ef3-a7b6-fc797eb1b872",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:31 PM",
+          "name": "KEYLU",
+          "label": "Key lookup's in memory",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "55e66c20-e7e9-4f34-894d-1b3161eeaa7f",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:33 PM",
+          "name": "RNSDATA",
+          "label": "Read non-structured data",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "5a18f2b4-f2ab-4d07-91ab-134a92fb1a3d",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:41:34 PM",
+          "name": "TONSDAT",
+          "label": "Types of non-structured data (number)",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "c8967a2e-6996-459e-aff9-8ba02e7e091c",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:38 PM",
+          "name": "KLUREU",
+          "label": "Key lookups reusable in different processes",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "d8f5f781-4148-4f17-b557-9b65878d7431",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:36 PM",
+          "name": "SCDIM",
+          "label": "Slowly changing dimensions",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "acd3d525-afad-43af-bc51-8f45e3a37d52",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:40 PM",
+          "name": "SCHED",
+          "label": "Scheduler functions",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "e181b478-b6b5-4b92-8216-6f3c363d0d56",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:42 PM",
+          "name": "EHJOB",
+          "label": "Error handling within job",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "d937ed29-97e6-4f72-8437-789c6b822cae",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:43 PM",
+          "name": "IMPAN",
+          "label": "Impact analysis",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "dfdc9e74-bda5-4c37-b664-a329cfb0d53f",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:45 PM",
+          "name": "DATLIN",
+          "label": "Data lineage",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "5a2682f8-4ea1-4e00-a237-e7604cfa207b",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:47 PM",
+          "name": "AUTDOC",
+          "label": "Automatic documentation",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "f4b89747-3848-4f77-ab56-99a8cb28d95e",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:50 PM",
+          "name": "SUPDMIN",
+          "label": "Support for data-mining models",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "02220a60-9aaf-4d2e-8bdf-76c4753d9bbc",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:41:34 PM",
+          "name": "ANFUNC",
+          "label": "Support for analytical functions",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "f7ce01a2-4a39-45c7-b351-1a286f025b36",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:13:05 PM",
+      "name": "EaseofUse",
+      "label": "Ease of use",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "66814850-0d60-405c-a5c0-8b6c0fece918",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:54 PM",
+          "name": "UserFr",
+          "label": "Tool is user friendly\\n",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "bf1b584c-bbd2-4a3f-84ff-6c3ccd657ba4",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:57 PM",
+          "name": "WYSIWYG",
+          "label": "WYSIWYG look and feel",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "1e7cb6ab-76b0-49a4-8bbb-393b607598a1",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:12:59 PM",
+          "name": "SCREENDES",
+          "label": "Screen design is good",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "2c5de99a-37f7-410b-8a2e-a4d1149d85f4",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:01 PM",
+          "name": "LOGICORDER",
+          "label": "Logical order for developers",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "a78be547-6b8d-432c-b877-f1317058cde2",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:03 PM",
+          "name": "TRAININGDEV",
+          "label": "Training required for the developer",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "ed411cd0-6c6d-456a-9d6a-3b7b119782f7",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:05 PM",
+          "name": "TRAININGUSER",
+          "label": "Training required for the casual user",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "61fdf623-2f53-4531-9ee3-f06669deec7c",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:41:34 PM",
+          "name": "TRAININGGUI",
+          "label": "Training generated from the GUI",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "aea1da79-0dac-4ee1-91c3-9372e3e86401",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:13:12 PM",
+      "name": "CLARITYREUSAB",
+      "label": "Clarity and reusability\\n",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "7d352517-0f4a-44a5-ae30-ed0a1e547c44",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:07 PM",
+          "name": "reuscomp",
+          "label": "Reusability of components",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "6e873f63-7b8e-4edc-86fc-7436ac769e0d",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:09 PM",
+          "name": "TOOLMOD",
+          "label": "Tool modularity",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "fab6a7ab-c0ef-4c35-890b-a513f0567dc1",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:10 PM",
+          "name": "UDF",
+          "label": "User defined functions",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "ce41664a-fda7-404c-97f4-ea3c3824b78a",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:12 PM",
+          "name": "UDFOP",
+          "label": "Are UDFs available in other programs",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "e8cd4346-8323-42f1-a149-b5c1d7d6c191",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:41:34 PM",
+          "name": "COSO",
+          "label": "Comments on selected objects",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "1cd03b1f-e57d-4f12-90d9-027c172bb114",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:13:32 PM",
+      "name": "DEBUGGING",
+      "label": "Debugging",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "99a056bf-2e58-4d08-8c86-3e2173323364",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:23 PM",
+          "name": "SBSRUN",
+          "label": "Step by step running",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "51a42ca1-b5cc-4c05-a237-af2a5b5743e6",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:23 PM",
+          "name": "RBRRUN",
+          "label": "Row-by-row running",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "fd994604-364d-4de7-a706-ce1304ce6349",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:23 PM",
+          "name": "BREPS",
+          "label": "Breakpoints",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "dfb887e4-b640-41c3-a392-6a08bb5ecd47",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:23 PM",
+          "name": "SFTWP",
+          "label": "Software watch points",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "08e2e9e5-6167-4155-862a-e0a5b3698b18",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:23 PM",
+          "name": "COMVAL",
+          "label": "compiler/validate",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "b42b7529-ef5c-4a05-b7bc-a2ea4ca8681d",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:28 PM",
+          "name": "CORSYN",
+          "label": "Corrections to syntax and/or field names",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "33ffb382-1f57-469f-9618-a49b29cdc5c0",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:32 PM",
+          "name": "CWMSUP",
+          "label": "CWM-support",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "b72c0799-836e-4195-9576-89f20424b5b0",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:23 PM",
+          "name": "VERMAN",
+          "label": "Version management",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "ffb10718-cf7b-4785-a1d4-a5b786cf724f",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:13:45 PM",
+      "name": "RTETL",
+      "label": "Realtime ETL/EAI/Rest services",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "db5066f1-5be4-449d-83f3-8ad2fc4c3ddb",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:37 PM",
+          "name": "INTBAT",
+          "label": "Integration batch - real-time",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "e3db2108-c7df-4792-97ef-b54b99681422",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:39 PM",
+          "name": "MODSEP",
+          "label": "Seperation in modules ",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "9593af87-015e-4f7b-a5c0-99d682ebea0e",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:43 PM",
+          "name": "CDM",
+          "label": "Changed data mechanisms",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "a4c9f08d-6a5a-4a93-a032-eb6c4a75360b",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:45 PM",
+          "name": "ODDI",
+          "label": "On-demand data integration",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "0846866b-763a-4c8a-be21-b9d3f7a6aacc",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:41:34 PM",
+          "name": "USMD",
+          "label": "Use the same metadata",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "b2a29016-417c-417d-9093-42379939ae3c",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:14:04 PM",
+      "name": "DSAT",
+      "label": "Data sources/targets",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "7c18067c-eeeb-465f-8c88-5b326c5b24c6",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:49 PM",
+          "name": "SJTAS",
+          "label": "Support for joined tables as source",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "94ce2c13-0f63-4cee-bb3e-bc42efddaf22",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:51 PM",
+          "name": "BIDQ",
+          "label": "Built-in functions for data quality",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "c3be3e89-a72a-44f9-ba74-3a0c333c2057",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:53 PM",
+          "name": "BIFDV",
+          "label": "Built-in functions for data validation",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "6fac0384-f618-4400-9f4a-eae5ebd02cc4",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:55 PM",
+          "name": "ADRESINFO",
+          "label": "Which address information is supported",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "73abe046-9470-407e-9dfa-ec905a47873a",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:56 PM",
+          "name": "DPROF",
+          "label": "Data profiling",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "fb9506da-4781-4cdb-bf77-2c25f2a341a6",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:13:58 PM",
+          "name": "CDC",
+          "label": "Changed data capture",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "12f16a17-1303-4d31-adc6-c3d78627987e",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:00 PM",
+          "name": "NCON",
+          "label": "Native connections ( excluding ODBC and flat files)",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "199dc85d-e3ec-49a0-aed1-d2b7111bd7c4",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:02 PM",
+          "name": "PEA",
+          "label": "Packages / enterprise applications",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "46fd98a8-0812-4d17-aa36-669ef15cb156",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:41:34 PM",
+          "name": "RTC",
+          "label": "Real-time connections",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "8b119ab2-0e91-4b44-8cb7-df17c26fcaff",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:14:13 PM",
+      "name": "PARPRO",
+      "label": "Parallel processing",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "14b825b9-c28b-45af-a1ae-9111d9485a13",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:08 PM",
+          "name": "SMP",
+          "label": "Symmetric Multi-processing (SMP)",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "eb2e31a8-46e1-4709-b6dc-e8d26e88d032",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:10 PM",
+          "name": "MASPP",
+          "label": "Massively parallel processing (MPP)",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "fad52425-77ef-4795-a2ab-eed878da00b0",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:13 PM",
+          "name": "CLAW",
+          "label": "Cluster Aware",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "f3727b1f-96e0-46ca-a020-bfc07b5041f8",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:24:47 PM",
+          "name": "GRID",
+          "label": " Grid",
+          "children": [],
+          "values": [
+            "4"
+          ],
+          "answerLabels": [
+            "Not applicable"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "8d802d00-02fd-4d0e-ae9c-4c5bfd8d0881",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:14:21 PM",
+      "name": "SCAL",
+      "label": "Scalability",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "2de89288-e784-48a2-9217-3495500bf927",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:17 PM",
+          "name": "JOBD",
+          "label": " Job distribution",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "10bcb4b7-0662-4d20-baf3-551dc17a38e5",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:21 PM",
+          "name": "DATPIP",
+          "label": "Data pipelining",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "a97e3c6b-fd72-4a9e-8b65-4839e4e58e0f",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:31:07 PM",
+          "name": "PART",
+          "label": "Partitioning",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "490403ac-59c3-45bb-944f-fae7cca917e0",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:14:24 PM",
+      "name": "BASARCH",
+      "label": "Base architecture",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "6e8fe106-1d35-4688-ba08-0d0a026d7da6",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:45:26 PM",
+          "name": "E2EBI",
+          "label": " End-to-end BI infrastructure",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "com.biit.form.result.CategoryResult",
+      "comparationId": "5c023da8-4800-4300-b026-07b69b3dd1c6",
+      "creationTime": "Mar 15, 2019 1:12:10 PM",
+      "updateTime": "Mar 15, 2019 1:14:31 PM",
+      "name": "OTHER",
+      "label": "Other",
+      "children": [
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "d19fd290-1145-45cb-8f81-bf1f7c25b751",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:28 PM",
+          "name": "PRICE",
+          "label": "Pricing",
+          "children": [],
+          "values": [
+            "1"
+          ],
+          "answerLabels": [
+            "High"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "59f65f98-2f00-47c7-a529-a28d23fc0d24",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 14, 2019 7:42:06 PM",
+          "name": "CON",
+          "label": "Connectivity",
+          "children": [],
+          "values": [
+            "2"
+          ],
+          "answerLabels": [
+            "Medium"
+          ]
+        },
+        {
+          "class": "com.biit.form.result.QuestionWithValueResult",
+          "comparationId": "185e76c3-e029-4b93-a1c0-c7e36d375ba3",
+          "creationTime": "Mar 15, 2019 1:12:10 PM",
+          "updateTime": "Mar 15, 2019 1:14:30 PM",
+          "name": "ROAD",
+          "label": "Roadmap",
+          "children": [],
+          "values": [
+            "3"
+          ],
+          "answerLabels": [
+            "Low"
+          ]
+        }
+      ]
+    }
+  ]
+}

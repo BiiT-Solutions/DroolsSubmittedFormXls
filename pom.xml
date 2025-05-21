@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.biit</groupId>
+	<artifactId>drools-submitted-form-xls</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>Drools Submitted Form XLS Conversor</name>
+
+	<parent>
+		<groupId>com.biit</groupId>
+		<artifactId>versions</artifactId>
+		<version>[1.0,1.1)</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>libs-releases</name>
+			<url>https://artifactory.biit-solutions.com/artifactory/libs-release</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>libs-snapshot</name>
+			<url>https://artifactory.biit-solutions.com/artifactory/libs-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<scm>
+		<connection>scm:git:git.biit-solutions.com:Java/DroolsSubmittedFormXls.git</connection>
+		<developerConnection>scm:git:git.biit-solutions.com:Java/DroolsSubmittedFormXls.git</developerConnection>
+		<tag>drools-submitted-form-xls</tag>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.biit</groupId>
+			<artifactId>form-structure-drools</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${apache-poi.version}</version>
+		</dependency>
+		<!-- Testing -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${org.testng.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java-latest.jdk.version}</source>
+					<target>${java-latest.jdk.version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.maven.surefire</groupId>
+						<artifactId>surefire-testng</artifactId>
+						<version>${maven-surefire-plugin.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>${maven-resources-plugin.version}</version>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
