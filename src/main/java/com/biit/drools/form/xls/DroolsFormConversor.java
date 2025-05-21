@@ -233,13 +233,15 @@ public class DroolsFormConversor {
         setCellValue(workbook, sheet, category, question, getFormResultColumn(formNumber), getAnswersText(question));
     }
 
-    private void setCellValue(HSSFWorkbook workbook, HSSFSheet sheet, DroolsSubmittedCategory category, DroolsSubmittedQuestion question, int column, String value) {
+    private void setCellValue(HSSFWorkbook workbook, HSSFSheet sheet, DroolsSubmittedCategory category, DroolsSubmittedQuestion question,
+                              int column, String value) {
         final HSSFRow questionRow = getQuestionRow(workbook, sheet, category, question);
         questionRow.createCell(column).setCellValue(value);
         questionRow.getCell(column).setCellStyle(getContentStyle(workbook));
     }
 
-    private void setCellFormula(HSSFWorkbook workbook, HSSFSheet sheet, DroolsSubmittedCategory category, DroolsSubmittedQuestion question, int column, String formula) {
+    private void setCellFormula(HSSFWorkbook workbook, HSSFSheet sheet, DroolsSubmittedCategory category, DroolsSubmittedQuestion question,
+                                int column, String formula) {
         final HSSFRow questionRow = getQuestionRow(workbook, sheet, category, question);
         final HSSFCell cell = questionRow.createCell(column);
         cell.setCellFormula(formula);
