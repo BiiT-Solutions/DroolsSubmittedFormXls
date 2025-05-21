@@ -7,8 +7,8 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.biit.drools.form.xls.IngridXlsTest" />
 			<class name="com.biit.drools.form.xls.FiveFrustrationsXlsTest" />
+			<class name="com.biit.drools.form.xls.MixedXlsTest" />
 		</classes>
 	</test>
 </suite>
