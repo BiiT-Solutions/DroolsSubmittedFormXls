@@ -5,7 +5,7 @@
 	<groupId>com.biit.drools</groupId>
 	<artifactId>drools-submitted-form-xls</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>Drools Submitted Form XLS Conversor</name>
 
 	<parent>
@@ -32,7 +32,7 @@
 	<scm>
 		<connection>scm:git:git.biit-solutions.com:Java/DroolsSubmittedFormXls.git</connection>
 		<developerConnection>scm:git:git.biit-solutions.com:Java/DroolsSubmittedFormXls.git</developerConnection>
-		<tag>drools-submitted-form-xls</tag>
+		<tag>drools-submitted-form-xls-1.0.1</tag>
 	</scm>
 
 	<dependencies>
