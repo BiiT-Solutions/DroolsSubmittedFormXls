@@ -127,12 +127,12 @@ public class DroolsFormConversor {
     }
 
     private HSSFSheet getVariablesSheet(HSSFWorkbook workbook, DroolsSubmittedForm droolsSubmittedForm) {
-        if (categorySheet.get(droolsSubmittedForm.getText() + "_" + VARIABLES_SHEET_NAME) == null) {
+        if (categorySheet.get(VARIABLES_SHEET_NAME) == null) {
             final HSSFSheet sheet = workbook.createSheet(parseInvalidCharacters(VARIABLES_SHEET_NAME));
             sheet.setDefaultRowHeight((short) DEFAULT_ROW_EIGHT);
-            categorySheet.put(droolsSubmittedForm.getText() + "_" + VARIABLES_SHEET_NAME, sheet);
+            categorySheet.put(VARIABLES_SHEET_NAME, sheet);
         }
-        return categorySheet.get(droolsSubmittedForm.getText() + "_" + VARIABLES_SHEET_NAME);
+        return categorySheet.get(VARIABLES_SHEET_NAME);
     }
 
     private String parseInvalidCharacters(String text) {

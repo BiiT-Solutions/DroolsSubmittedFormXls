@@ -1,0 +1,76 @@
+{
+  "class" : "com.biit.drools.form.DroolsSubmittedForm",
+  "tag" : "CADT_Customer_3",
+  "children" : [ {
+    "class" : "com.biit.drools.form.DroolsSubmittedCategory",
+    "tag" : "archetype",
+    "text" : "archetype",
+    "children" : [ {
+      "class" : "com.biit.drools.form.DroolsSubmittedGroup",
+      "tag" : "inspiration",
+      "text" : "inspiration",
+      "children" : [ {
+        "class" : "com.biit.drools.form.DroolsSubmittedQuestion",
+        "tag" : "nhm_card_choice1",
+        "text" : "nhm_card_choice1",
+        "children" : [ ],
+        "answers" : [ "visionary" ]
+      }, {
+        "class" : "com.biit.drools.form.DroolsSubmittedQuestion",
+        "tag" : "nhm_card_choice2",
+        "text" : "nhm_card_choice2",
+        "children" : [ ],
+        "answers" : [ "innovator" ]
+      }, {
+        "class" : "com.biit.drools.form.DroolsSubmittedQuestion",
+        "tag" : "nhm_card_choice3",
+        "text" : "nhm_card_choice3",
+        "children" : [ ],
+        "answers" : [ "strategist" ]
+      } ],
+      "repeatable" : "false",
+      "numberOfIterations" : "0"
+    }, {
+      "class" : "com.biit.drools.form.DroolsSubmittedGroup",
+      "tag" : "structure",
+      "text" : "structure",
+      "children" : [ {
+        "class" : "com.biit.drools.form.DroolsSubmittedQuestion",
+        "tag" : "nhm_card_choice4",
+        "text" : "nhm_card_choice4",
+        "children" : [ ],
+        "answers" : [ "leader" ]
+      }, {
+        "class" : "com.biit.drools.form.DroolsSubmittedQuestion",
+        "tag" : "nhm_card_choice5",
+        "text" : "nhm_card_choice5",
+        "children" : [ ],
+        "answers" : [ "tradesman" ]
+      }, {
+        "class" : "com.biit.drools.form.DroolsSubmittedQuestion",
+        "tag" : "nhm_card_choice6",
+        "text" : "nhm_card_choice6",
+        "children" : [ ],
+        "answers" : [ "scientist" ]
+      } ],
+      "repeatable" : "false",
+      "numberOfIterations" : "0"
+    } ]
+  }, {
+    "class" : "com.biit.drools.form.DroolsSubmittedCategory",
+    "tag" : "competency",
+    "text" : "competency",
+    "children" : [ {
+      "class" : "com.biit.drools.form.DroolsSubmittedQuestion",
+      "tag" : "competency_choice",
+      "text" : "competency_choice",
+      "children" : [ ],
+      "answers" : [ "building-and-maintaining", "client-oriented", "decisiveness", "discipline", "flexibility", "goal-setting", "initiative", "judgement", "problem-analysis", "tenacity" ]
+    } ]
+  } ],
+  "applicationName" : "",
+  "submittedBy" : "vincent.wielders",
+  "submittedAt" : "05-05-2025 17:30:51",
+  "version" : 2,
+  "formVariables" : "{\n  \"/DroolsSubmittedForm[@label='CADT_Customer_3']\" : {\n    \"IntroductionNotSelected\" : \"$KnowledgeSystem{cadt.customer3.introduction.unselected}\",\n    \"StructureDisciplineCircleColor\" : \"8bc4ab\",\n    \"StructureGoalsCircleColor\" : \"8bc4ab\",\n    \"IntroductionHeader\" : \"$KnowledgeSystem{cadt.customer3.introduction.header}\",\n    \"AdaptabilityFlexibilityCircleColor\" : \"7ccadf\",\n    \"ActionInitiativeCircleColor\" : \"e9a197\",\n    \"StructureInspirationBalancedTitle\" : \"$KnowledgeSystem{cadt.customer3.unbalance.structure.inspiration}\",\n    \"AdaptabilityBuildingCircleColor\" : \"7ccadf\",\n    \"InspirationText\" : \"$KnowledgeSystem{cadt.customer3.balance.inspiration.none}\",\n    \"ActionText\" : \"$KnowledgeSystem{cadt.customer3.balance.action.initiative}\",\n    \"IntroductionSelected\" : \"$KnowledgeSystem{cadt.customer3.introduction.selected}\",\n    \"IntellectualPropertyDisclaimText\" : \"$KnowledgeSystem{cadt.customer3.intellectual.property}\",\n    \"InspirationConscientiousnessCircleColor\" : \"ffffff\",\n    \"IntroductionText\" : \"$KnowledgeSystem{cadt.customer3.introduction.text}\",\n    \"StructureInspirationBalancedText\" : \"$KnowledgeSystem{cadt.customer3.balance.text.structure.discipline.goal-setting.inspiration.conscientiousness}\",\n    \"AdaptabilityText\" : \"$KnowledgeSystem{cadt.customer3.balance.adaptability.building-and-maintaining.flexibility}\",\n    \"AdaptabilityActionBalancedTitle\" : \"$KnowledgeSystem{cadt.customer3.balance.adaptability.action}\",\n    \"IntroductionTitle\" : \"$KnowledgeSystem{cadt.customer3.introduction.title}\",\n    \"StructureText\" : \"$KnowledgeSystem{cadt.customer3.balance.structure.discipline.goal-setting}\",\n    \"ActionDirectionCircleColor\" : \"ffffff\",\n    \"AdaptabilityActionBalancedText\" : \"$KnowledgeSystem{cadt.customer3.balance.text.adaptability.building-and-maintaining.flexibility.action.initiative}\",\n    \"InspirationEngagementCircleColor\" : \"ffffff\"\n  }\n}"
+}

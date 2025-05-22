@@ -18,7 +18,7 @@ import java.util.List;
 @Test(groups = {"convertXls"})
 public class MixedXlsTest {
     private static final String OUTPUT_FOLDER = System.getProperty("java.io.tmpdir") + File.separator + "XmlForms";
-    private static final String FORM_AS_JSON = "";
+    private static final String FORM_AS_JSON = "cadt.json";
     private static final String FORM_AS_JSON_2 = "The 5 Frustrations on Teamworking 2.json";
     private static final String FORM_AS_JSON_3 = "The 5 Frustrations on Teamworking 3.json";
 
