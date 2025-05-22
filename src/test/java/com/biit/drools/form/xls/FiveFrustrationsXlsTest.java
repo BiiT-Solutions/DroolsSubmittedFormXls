@@ -1,7 +1,6 @@
 package com.biit.drools.form.xls;
 
 import com.biit.drools.form.DroolsSubmittedForm;
-import com.biit.form.result.FormResult;
 import com.biit.drools.form.xls.exceptions.InvalidXlsElementException;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
